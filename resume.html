@@ -91,8 +91,8 @@
 
             text-decoration: none;
             border: .1rem solid rgb(177, 168, 168);
-            padding: .2rem;
-            border-radius: 1rem;
+            padding: 3remrem;
+            border-radius: 4rem;
         }
 
         li>a:hover {
@@ -168,6 +168,50 @@
         ul>li{
             text-decoration: none;
         }
+
+
+
+        /* responsive */
+        @media only screen and (max-width:1375px){
+    *{max-width: 100%;}
+    .right>ul
+    {flex-direction: column;}
+    nav{
+        flex-direction: column;
+    }
+    .herosection{
+        margin: 0;
+        flex-direction: column;
+    }
+    main{
+        margin: .1rem;
+        padding: .1rem;
+        border-radius: 1rem;
+    }
+    .heroleft{
+        position: static;
+        max-width: 100%;
+        margin: 0.3rem;
+        padding: 0.1rem;
+        border-radius: 1rem;
+        font-size: 1.5rem;
+        
+    }
+
+    .heroright{
+        padding: .1rem;
+        margin: .1rem;
+        width: 100%;
+border-radius: 1rem;
+    }
+    .con{
+        margin: .3rem;
+        padding: .2rem;
+        border-radius: 1rem;
+    }
+    
+    }
+
     </style>
 </head>
 
