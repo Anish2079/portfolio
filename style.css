@@ -62,7 +62,11 @@ justify-content: space-between;
 align-content: center;
 }
 .heroright{
+    
 
+}
+#ppp{
+    border-radius: 100%;
 }
 .ess{
     color: rgb(78, 141, 141);
@@ -120,7 +124,8 @@ footer{
         flex-direction: column;
     }
     .herosection{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-bottom: 2rem;
     }
     .heroleft{
         margin: 0;
@@ -128,8 +133,10 @@ footer{
     }
     
     .heroright{
+        text-align: center;
         padding: .5rem;
         margin: .5rem;
+        
         width: 100%;
     }
     main{
