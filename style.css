@@ -21,20 +21,25 @@ nav{
     border-radius: 4rem;
     color: rgb(234, 242, 243);
 }
-.left{
+.left {
     font-size: 2rem;
 }
 
-.right>ul{
+.right>ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
 }
-.right>ul>li{
-    list-style: none;
+
+.right>ul>li {
     
+    list-style: none;
+
+}
+.right>ul>li>a{
+    padding: .2rem;
 }
 main{
     padding: 4rem;
@@ -113,6 +118,8 @@ footer{
 }
 
 
+
+
 /* responsive */
 @media only screen and (max-width:800px){
     *{
@@ -155,4 +162,23 @@ footer{
     align-items: center;
     align-content: center;
 }
+
+/* .burger{
+    position: fixed;
+    right: 3%;
+    top: 5%;
+}
+.line{
+    width: 1.5rem;
+    height: .3rem;
+    margin: .1rem;
+    background-color: #8dc2c8
+    
+}
+.hnav{
+    height: 1.5rem;
+}
+.v{
+    opacity: 0;
+} */
 }
