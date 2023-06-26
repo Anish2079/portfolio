@@ -34,7 +34,7 @@ nav{
 }
 
 .right>ul>li {
-    
+    gap: 2rem;
     list-style: none;
 
 }
